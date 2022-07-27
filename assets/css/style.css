@@ -124,14 +124,12 @@ h2 {
 }
 
 #left-about {
-    background-color: blue;
     padding-top: 30px;
     width: 33%;
     float: left;
 }
 
 #right-about {
-    background-color: silver;
     padding-top: 30px;
     width: 33%;
     float: right;
@@ -141,4 +139,34 @@ h2 {
     background-color: green;
     width: 33%;
     margin: 0 auto;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading h2 {
+    text-align: right;
+}
+
+.right-about-heading p {
+    text-align: right;
 }
